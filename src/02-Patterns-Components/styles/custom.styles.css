@@ -1,0 +1,17 @@
+.bg-dark {
+  background-color: rgb(56, 56, 56);
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.text-white {
+  color: white;
+}
+
+.custom-image {
+  width: calc(100% - 20px);
+  border-radius: 20px;
+  padding: 10px;
+}
