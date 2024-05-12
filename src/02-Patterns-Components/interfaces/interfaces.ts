@@ -14,6 +14,7 @@ export interface ProductContextProps {
   count: number;
   increaseBy: (value: number) => void;
   product: Product;
+  maxCount?:number
 }
 
 export interface ProductCardHOCProps {
@@ -24,6 +25,7 @@ export interface ProductCardHOCProps {
     style,
     onChange,
     value,
+    initialValue,
   }: ProductCardProps): JSX.Element;
   Title: ({ title, className, style }: ProductTitleProps) => JSX.Element;
   Image: ({ img, className, style }: ProductImageProps) => JSX.Element;
